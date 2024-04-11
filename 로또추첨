@@ -1,0 +1,8 @@
+import random
+
+lotto_num = random.sample(range(1,46),6)
+
+user_lotto = [int(x) for x in input("1부터 45 사이의 숫자 6개를 입력하세요: ").split()]
+
+print("당첨번호는 : ", lotto_num)
+print("사용자 입력 번호는 : ", user_lotto)
